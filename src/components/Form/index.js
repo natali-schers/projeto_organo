@@ -1,6 +1,7 @@
 import './style.css';
 import InputText from '../InputText';
 import Dropdown from '../Dropdown';
+import Button from '../Button';
 
 const Form = () => {
     const teams = [
@@ -21,6 +22,7 @@ const Form = () => {
                 <InputText label="Cargo" placeholder="Digite seu cargo" />
                 <InputText label="Imagens" placeholder="Informe o endereço da imagem" />
                 <Dropdown label="Time" items={teams}/>
+                <Button>Criar Card</Button>
             </form>
         </section>
     )
